@@ -3,7 +3,7 @@ const path = require('path')
 const {proCommonPath} = require('../common_config/absolute_paths')
 
 /** 项目名称 */
-const name = '水果到家后台' // page title
+const name = '水果到家管理后台' // page title
 const proName = process.env.PRO_NAME || 'agent'
 console.log('/***************************************')
 console.log(`*********正在打包 [${name}]**********`)

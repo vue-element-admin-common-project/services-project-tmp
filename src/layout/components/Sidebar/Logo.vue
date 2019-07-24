@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      title: '水果到家后台',
+      title: '水果到家',
       logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
     }
   }
