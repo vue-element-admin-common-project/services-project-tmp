@@ -12,21 +12,21 @@ import Layout from '@/layout'
  * */
 // needAuthRoutes
 export const needAuthRoutes = {
-  /** 例子
-   * 权限设置
+  /**
+   * 开发示例
    * */
-  // '/authManage': {
-  //   path: '/authManage',
-  //   redirect: '/authManage/uMge',
-  //   component: Layout,
-  //   meta: { title: '权限设置', icon: 'documentation', noCache: true, affix: false }
-  // },
-  // '/authManage/uMge': {
-  //   path: '/authManage/uMge',
-  //   name: 'AuthManageUMge',
-  //   component: () => import('@/views/authManage/uMge/uMge'),
-  //   meta: { title: '后台用户管理', noCache: true, affix: false }
-  // }
+  '/devMgr': {
+    path: '/devMgr',
+    redirect: '/devMgr/cardExample',
+    component: Layout,
+    meta: { title: '开发示例', icon: 'documentation', noCache: true, affix: false }
+  },
+  '/devMgr/cardExample': {
+    path: '/devMgr/cardExample',
+    name: 'DevMgrCardExample',
+    component: () => import('@/views/devMgr/CardExample/CardExample.vue'),
+    meta: { title: '卡片示例', noCache: true, affix: false }
+  }
 }
 
 /**
