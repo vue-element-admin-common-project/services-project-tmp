@@ -11,7 +11,7 @@ export default {
   name: "DevMgrCardExample",
   data() {
     return {
-      title: "components/Title/TitleBar.vue 示例"
+      title: "components/Title/TitleBar.vue 示例" // 测试混合git
     }
   },
   components: {
