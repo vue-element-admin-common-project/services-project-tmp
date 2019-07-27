@@ -25,7 +25,11 @@ export default {
             togglePrefix: {
               active: val => val == "1"
             }
-          }
+          },
+          { type: "input", initVal: "", prop: "c", label: "示例Label3", placeholder: "请填写示例value3", rightClass: "test-right-class" },
+          { type: "input", initVal: "", prop: "d", label: "示例Label3", placeholder: "请填写示例valued", rightClass: "test-right-class" },
+          { type: "input", initVal: "", prop: "e", label: "示例Label3", placeholder: "请填写示例valuee", rightClass: "test-right-class" },
+          { type: "input", initVal: "", prop: "f", label: "示例Label3", placeholder: "请填写示例valuef", rightClass: "test-right-class" }
         ]
       }
     }
